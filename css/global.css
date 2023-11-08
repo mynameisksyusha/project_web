@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Playfair+Display&family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color:#FFFFFF;
+    --text-footer: #FFFFFF66;
+    --symbol-color:#EE2E14;
+    --svg-color:rgb(238, 46, 20);
+    --text-color-dark:rgb(111, 115, 128);
+    --svg-social-media:rgba(255, 255, 255, 0.4); 
+    scroll-behavior: smooth;
+    --blog-text: #505155;
+    /*font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;*/
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+img {
+    display: block;
+    width:100%;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.header__symbol{
+    font-family: "Roboto" sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--symbol-color);
+}

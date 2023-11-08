@@ -1,0 +1,120 @@
+.header__logo{
+    width: 188px;
+    height: 34px;
+    padding: 0%;
+}
+
+.header__nav{
+    padding: 30px 24px 30px 24px;
+    
+}
+.header__menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__menu .menu_item {
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+.header__symbol{
+    font-family: "Roboto" sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--symbol-color);
+}
+
+.header__text_part{
+    font-family: "Roboto" sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--text-color);
+} 
+
+.header__title{
+    font-size: 70px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 50px;
+
+}
+
+.top-image {
+    border: 10px solid red;
+    padding: 5px;
+    margin: 40px ;
+}
+
+@media (min-width:992px) {
+    .header__nav {
+        display: flex;
+        align-items: center;
+    }
+    .header__menu{
+        flex:1;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+}
+
+.header  {
+    background-image: url('../images/header_picture.png'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* This ensures the image covers the entire header */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: top; /* Положение изображения по центру */
+    background-attachment: fixed;
+}
+
+.header__banner {
+    min-height: 600px;
+    padding: 90px 24px;
+    display: flex;
+    flex-direction: column;
+
+}
+.header__video-button {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+
+.header__video-button svg{
+    color: var(--svg-color);
+    width: 18.41px;
+    max-width: 100%;
+}
+
+.header__video-button_text{
+    color: var(--text-color);
+    font-family: "Roboto" sans-serif;
+    font-size: 12px;
+    
+}
+
+.header__text_item p{
+    display: inline-block;
+}
+
+.header__image {
+    margin-top: 50px;
+    
+}
+
+.header__image_text {
+    font-family: "Roboto" sans-serif;
+    color: var(--text-color);
+}
+
+.header__image_text_button{
+    font-size: 14px;
+    margin-top: 35px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+

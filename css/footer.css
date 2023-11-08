@@ -1,0 +1,44 @@
+.footer {
+    background-color: black;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer__logo{
+    width: 176px;
+    height: 32px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--text-footer);
+    font-size: 17px;
+    font-family: "Roboto" sans-serif;
+}
+
+.footer__bottom p {
+    color: var(--text-color);
+    font-size: 12px;
+    font-family: "Roboto" sans-serif;
+}
+
+.footer__social svg {
+    width: 20px;
+    height: 20px;
+    stroke: var( --svg-social-media);
+    stroke-width: 1;
+    fill: var( --svg-social-media);
+}
+

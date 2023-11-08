@@ -6,25 +6,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Guided Tour</title>
         <link rel="shortcut icon" href="images/mountains-favicon.png">
+        <link  rel ="stylesheet" href="css/index.css">
     </head>
     <body>
-        <header>
+        <header >
             <nav data-include="header-nav.partial.html"></nav>
-			<div data-include="index.header-banner.partial.html"></div>
+			<!--<div data-include="index.header-banner.partial.html"></div>-->
 			
 
         </header>
         <main>
 			<section data-include="index.about-us.partial.html"></section>
-			<section data-include="index.tour-itinerary.partial.html"></section>
-
-            <div data-include="index.contacts.partial.html"></div>
-
-        </main>
-        <footer>
+			<section class="tour-itinerary" data-include="index.tour-itinerary.partial.html"></section>
+            <section data-include="index.blog.html"></section>
+            <section data-include="index.contacts.partial.html"></section>
             
+        </main>
+        
+        <footer data-include="index.footer.html"></footer>
 
-        </footer>
+        
 		<script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
     </body>
 </html>

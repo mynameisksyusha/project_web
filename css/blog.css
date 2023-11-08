@@ -1,0 +1,38 @@
+.blog {
+    padding: 90px 24px 40px 24px;
+}
+
+.header__blog p{
+    display: inline-block;
+    font-family: "Roboto" sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase; 
+   
+}
+
+.header__blog_text{
+    color:var(--text-color-dark);
+}
+
+.header__symbol{
+    font-family: "Roboto" sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--symbol-color);
+}
+
+.maint-text__blog {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    color: var(--blog-text);
+}
+
+.text__blog {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    color: var(--blog-text);
+    margin: 25px 0;
+
+}

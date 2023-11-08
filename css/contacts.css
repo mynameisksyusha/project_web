@@ -1,0 +1,27 @@
+.contacts {
+    background-image: url('../images/contacts-background.jpeg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* This ensures the image covers the entire header */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; 
+    background-color: black;
+    background-position: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contacts a {
+    text-decoration: none;
+    /*color: var(--text-color);*/
+    font-size: 14px;
+    font-family: "Roboto" sans-serif;
+}
+
+.contacts p {
+    text-decoration: none;
+    /*color: var(--text-color);*/
+    font-size: 22px;
+    font-family: "Roboto" sans-serif;
+}
+
+

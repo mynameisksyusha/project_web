@@ -1,0 +1,8 @@
+.tour-itinerary {
+    background-image: url('/images/tour-itinerary.png'); /* Replace 'your-image.jpg' with the path to your image */
+    padding: 90px 24px 40px 24px;
+}
+
+@media (min-width: 768px) {
+    
+} 
